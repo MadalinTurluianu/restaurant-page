@@ -6,8 +6,8 @@ import { nav, homeBtn, menuBtn, contactsBtn } from "./nav";
 
 const mainDiv = document.getElementById("content");
 
-mainDiv.appendChild(landingPage);
 mainDiv.appendChild(nav);
+mainDiv.appendChild(landingPage);
 
 function changeCurrentPage() {
     mainDiv.innerHTML = "";

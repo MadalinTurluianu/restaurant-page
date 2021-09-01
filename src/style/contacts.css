@@ -1,0 +1,22 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 4rem);
+}
+
+.contacts ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: clamp(1rem, 80%, 50rem);
+  list-style-type: none;
+  padding-inline-start: 0px;
+  padding: 0 2rem;
+  border-radius: 15px;
+}
+
+.contacts li {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+}
